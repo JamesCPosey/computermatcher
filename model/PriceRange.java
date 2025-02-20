@@ -1,6 +1,6 @@
 package com.computermatcher.model;
 
-public enum PriceRange {
+public enum PriceRange { //wanted to use price ranges since someone within one hundred dollars or so will usually still look for products on tier
     BUDGET(0, 500),
     MID_RANGE(500, 1000),
     HIGH_END(1000, 1500),

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ComputerMatcher {
+public class ComputerMatcher { //creates matching system and preloads devices, as this tool is to get a general idea instead of a final decision
     private final List<Computer> computers;
 
     public ComputerMatcher() {
@@ -52,7 +52,7 @@ public class ComputerMatcher {
             "Premium Tablet", 1199.99, false, true, true,
             "Qualcomm Snapdragon X, 16GB RAM, 512GB SSD, 4k Display"
         ));
-        // Premium computers
+        // Professional/Enthusiast computers, for those who put a lot of money into these
         computers.add(new Computer(
             "Ultimate Gaming Rig", 1999.99, true, false, true,
             "AMD Ryzen 9, 64GB RAM, RTX 4080, 2TB SSD"

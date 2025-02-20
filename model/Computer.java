@@ -1,5 +1,6 @@
 package com.computermatcher.model;
 
+//Creating a class for computers
 public class Computer {
     private String name;
     private double price;
@@ -18,7 +19,7 @@ public class Computer {
         this.specifications = specifications;
     }
 
-    // Getters
+    // Getters for the attributes
     public String getName() { return name; }
     public double getPrice() { return price; }
     public boolean hasDedicatedGPU() { return dedicatedGPU; }
@@ -26,6 +27,7 @@ public class Computer {
     public boolean hasHighScreenQuality() { return highScreenQuality; }
     public String getSpecifications() { return specifications; }
 
+    //Create a matching score for if the user wants a feature 
     public int calculateMatchScore(boolean wantsDedicatedGPU, 
                                  boolean wantsPortable, 
                                  boolean wantsHighScreenQuality) {
