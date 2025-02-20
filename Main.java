@@ -13,10 +13,10 @@ public class Main {
         System.out.println("Welcome to Computer Matcher!");
         System.out.println("----------------------------");
 
-        // Get budget
+        // Get user's budget
         double budget = getBudgetInput();
 
-        // Get requirements
+        // Get requirements, based on some super simple ideas of what a person might need from a device
         boolean needsDedicatedGPU = getYesNoInput("Do you need a dedicated GPU for gaming or creative work? (yes/no): ");
         boolean needsPortable = getYesNoInput("Do you need the computer to be portable? (yes/no): ");
         boolean needsHighScreenQuality = getYesNoInput("Do you need high screen quality for content consumption? (yes/no): ");
